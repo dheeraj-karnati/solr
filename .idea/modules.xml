@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/exploro.iml" filepath="$PROJECT_DIR$/.idea/exploro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../exploro-dashboard/.idea/exploro.iml" filepath="$PROJECT_DIR$/../exploro-dashboard/.idea/exploro.iml" />
     </modules>
   </component>
 </project>

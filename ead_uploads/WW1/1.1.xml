@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='schema/ead3.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<?xml-stylesheet type="text/xsl" href="../stylesheets/boxbuilder.xsl"?>
+<ead audience="external">
+	<!-- EAD3 required element -->
+	<control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<!-- EAD3 required element -->
+		<recordid instanceurl="http://localhost:9090/exploro/ead_uploads/WW1/1.1.xml">1.1</recordid><!-- EAD3 required element -->
+		<filedesc>
+			<!-- EAD3 required element -->
+			<titlestmt>
+				<!-- EAD3 required element -->
+				<titleproper>Alaska</titleproper><!-- Required element within titlestmt -->
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Marist College</publisher>
+				<date>2009 October 30</date>
+				<address>
+					<addressline>3399 North Road, Poughkeepsie, New York 12601</addressline>
+				</address>
+				<p>
+					<ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>
+				</p>
+			</publicationstmt>
+		</filedesc>
+	</control>
+	<archdesc level="collection">
+		<!-- EAD3 required element -->
+		<did>
+			<!-- EAD3 required element -->
+			<repository>
+				<corpname source="DBP" identifier="http://dbpedia.org/page/Marist_College">
+					<part>Marist Archives and Special Collections</part>
+				</corpname>
+				<address>
+					<addressline>3399 North Road, Poughkeepsie, New York 12601</addressline>
+				</address>
+			</repository>
+			<origination source="DBP" identifier="http://dbpedia.org/page/Lowell_Thomas">
+				<!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now -->
+				<persname>
+					<part>Lowell Thomas</part>
+				</persname>
+			</origination>
+			<unittitle>Alaska</unittitle><!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' -->
+			<unitid>1.1</unitid><!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->
+			<langmaterial/>
+		</did>
+		<accessrestrict>
+			<!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
+			<p>Items in this collection do not circulate and may be used in-house only.</p>
+		</accessrestrict>
+		<userestrict>
+			<!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' -->
+			<p>Individuals requesting reproductions expressly assume the responsibility for compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et seq. Patrons further agree to indemnify and hold harmless the Marist College Archives &amp; Special Collections and its staff in connection with any disputes arising from the Copyright Act, over the reproduction of material at the request of patrons. For more information please visit the following website:�http://www.loc.gov/copyright/title17/.</p>
+		</userestrict>
+		<controlaccess>
+			<controlnote>
+				<p>Lowell Thomas Papers - Textual Materials</p>
+			</controlnote>
+			<geogname source="DBP" identifier="http://dbpedia.org/page/Alaska">
+				<part>Alaska</part>
+			</geogname>
+		</controlaccess>
+		<dsc>
+			<c01 level="collection">
+				<did>
+					<unittitle>
+						Lowell Thomas Papers
+						<ptr href="http://localhost:9090/exploro/ead_uploads/WW1/index.xml"/>
+					</unittitle>
+				</did>
+				<c02 level="series">
+					<did>
+						<unitid>1</unitid>
+						<unittitle>Textual Materials</unittitle>
+					</did>
+					<c03 level="recordgrp">
+						<did>
+							<container localtype="box">1</container>
+							<c04 level="item">
+								<did>
+									<unitid>1</unitid>
+									<unittitle>Alaska - Our 49th State (story line for High Adventure with Lowell Thomas television series)</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1958</fromdate>
+											<todate>1959</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>2</unitid>
+									<unittitle>Alaska Centennial</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1964</fromdate>
+											<todate>1967</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>3</unitid>
+									<unittitle>Alaska Centennial</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1964</fromdate>
+											<todate>1967</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>4</unitid>
+									<unittitle>Alaska Methodist University</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1969</fromdate>
+											<todate>1971</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>5</unitid>
+									<unittitle>Alaska National Parks Committee</unittitle>
+									<unitdatestructured>
+										<datesingle>1969</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>6</unitid>
+									<unittitle>Alaska National Parks Committee</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1969</fromdate>
+											<todate>1970</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>7</unitid>
+									<unittitle>Alaska pipeline</unittitle>
+									<unitdatestructured>
+										<datesingle>1975</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>8</unitid>
+									<unittitle>Alaska trip</unittitle>
+									<unitdatestructured>
+										<datesingle>1950</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>9</unitid>
+									<unittitle>Alaska/Hawaii trip</unittitle>
+									<unitdatestructured>
+										<datesingle>1970</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>10</unitid>
+									<unittitle>The Alaskan Paintings of Fred Machetanz</unittitle>
+									<unitdatestructured>
+										<datesingle>1977</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>11</unitid>
+									<unittitle>Alaskan story line and filming schedule</unittitle>
+									<unitdatestructured>
+										<datesingle>undated</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>12</unitid>
+									<unittitle>Bibliography regarding Alaska</unittitle>
+									<unitdatestructured>
+										<datesingle>undated</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>13</unitid>
+									<unittitle>Biographical writings on noted Alaskans</unittitle>
+									<unitdatestructured>
+										<datesingle>undated</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>14</unitid>
+									<unittitle>Correspondence</unittitle>
+									<unitdatestructured>
+										<datesingle>1950</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>15</unitid>
+									<unittitle>Correspondence related to the Alaska travelogues</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1915 October 19</fromdate>
+											<todate>1917 March 12</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+						</did>
+					</c03>
+					<c03 level="recordgrp">
+						<did>
+							<container localtype="box">2</container>
+							<c04 level="item">
+								<did>
+									<unitid>1</unitid>
+									<unittitle>Correspondence sent to Cecil Cole in which Lowell Thomas relates his plans for a business venture in Alaska</unittitle>
+									<unitdatestructured>
+										<datesingle>1916 September 24</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>2</unitid>
+									<unittitle>Diary (Alaska and Rainier National Park)</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1915 May 1</fromdate>
+											<todate>July 14</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>3</unitid>
+									<unittitle>Drafts of broadcast scripts and Alaska notes</unittitle>
+									<unitdatestructured>
+										<datesingle>1950 August 1</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>4</unitid>
+									<unittitle>Ephemera</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1916</fromdate>
+											<todate>1917 May 4, circa 1959</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>5</unitid>
+									<unittitle>Expense report for trip to Alaska</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1916 January 1</fromdate>
+											<todate>September 15</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>6</unitid>
+									<unittitle>King of Nepal</unittitle>
+									<unitdatestructured>
+										<datesingle>1961, 1968</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>7</unitid>
+									<unittitle>Miscellaneous publications</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1927 March</fromdate>
+											<todate>1971</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>8</unitid>
+									<unittitle>Newspaper and magazine clippings</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1916 May 3</fromdate>
+											<todate>1967 April 20</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>9</unitid>
+									<unittitle>Questions about Alaska [possibly posed to Franklin K. Lane, Secretary of Interior]</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>10</unitid>
+									<unittitle>Oral Roberts Alaska special</unittitle>
+									<unitdatestructured>
+										<datesingle>undated</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>11</unitid>
+									<unittitle>Scrapbook [see oversize box OS-4 for original]</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1916 February 6</fromdate>
+											<todate>1917 August 5</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>12</unitid>
+									<unittitle>Lowell Thomas, Jr.</unittitle>
+									<unitdatestructured>
+										<daterange>
+											<fromdate>1964 May 17</fromdate>
+											<todate>1976 March 15</todate>
+										</daterange>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>13</unitid>
+									<unittitle>Lowell Thomas, Jr.(Alaska journal)</unittitle>
+									<unitdatestructured>
+										<datesingle>1940</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>14</unitid>
+									<unittitle>Travelogue advertisement</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>15</unitid>
+									<unittitle>Travelogue scripts</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>16</unitid>
+									<unittitle>Travelogue promotional brochures for five illustrated lectures</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>17</unitid>
+									<unittitle>Travelogue promotional booklets [A Trip to the Land of Gold in Quest of Adventure with Lowell Jackson Thomas]</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+						</did>
+					</c03>
+					<c03 level="recordgrp">
+						<did>
+							<container localtype="box">3</container>
+							<c04 level="item">
+								<did>
+									<unitid>1</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>2</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>3</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>4</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>5</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>6</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+						</did>
+					</c03>
+					<c03 level="recordgrp">
+						<did>
+							<container localtype="box">4</container>
+							<c04 level="item">
+								<did>
+									<unitid>1</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>2</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>3</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>4</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>5</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>6</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+						</did>
+					</c03>
+					<c03 level="recordgrp">
+						<did>
+							<container localtype="box">5</container>
+							<c04 level="item">
+								<did>
+									<unitid>1</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>2</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+							<c04 level="item">
+								<did>
+									<unitid>3</unitid>
+									<unittitle>Alaska travelogue promotional booklets</unittitle>
+									<unitdatestructured>
+										<datesingle>circa 1916</datesingle>
+									</unitdatestructured>
+								</did>
+							</c04>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

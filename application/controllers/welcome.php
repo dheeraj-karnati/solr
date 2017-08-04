@@ -64,7 +64,7 @@ class Welcome extends CI_Controller {
 
     /*public function sample(){
 
-        $directory = '/Applications/MAMP/htdocs/exploro/application/eads';
+        $directory = '/Applications/MAMP/htdocs/exploro-dashboard/application/eads';
 
         if (! is_dir($directory)) {
             exit('Invalid diretory path');
@@ -85,8 +85,8 @@ class Welcome extends CI_Controller {
             $proc->importStylesheet($xsl_doc);
             //create new domfile
             $newdom = $proc->transformToDoc($ead_doc);
-            //save new dom file into solr_xmls directory
-            $newdom->save("application/solr_xmls/".$file)or die("Error");
+            //save new dom file into solr_xmls(old) directory
+            $newdom->save("application/solr_xmls(old)/".$file)or die("Error");
 
 
             //$files[] = $file;
@@ -188,7 +188,7 @@ echo $string1;
                 $proc->importStylesheet($xsl_doc);
                 //create new domfile
                 $newdom = $proc->transformToDoc($new_ead_doc);
-                //save new dom file into solr_xmls directory
+                //save new dom file into solr_xmls(old) directory
                 $newdom->save("application/solr_ead2/" . $file) or die("Error");
 
             }
@@ -199,7 +199,7 @@ echo $string1;
     }
     public function finalEads(){
 
-        $files = glob("application/solr_xmls/*xml");
+        $files = glob("application/solr_xmls(old)/*xml");
         if (is_array($files)) {
             foreach ($files as $filename) {
                 $ead_doc = new DOMDocument();
@@ -207,12 +207,12 @@ echo $string1;
                 $file = basename($filename);
 
                 $xsl_doc = new DOMDocument();
-                $xsl_doc->load("application/xslt/new_ead_solr.xsl");
+                $xsl_doc->load("application/xslt/ead_3_solr.xsl");
                 $proc = new XSLTProcessor();
                 $proc->importStylesheet($xsl_doc);
 
                 $newdom = $proc->transformToDoc($ead_doc);
-                //save new dom file into solr_xmls directory
+                //save new dom file into solr_xmls(old) directory
                 $newdom->save("application/final_eads/".$file)or die("Error");
             }
         }
@@ -223,7 +223,7 @@ echo $string1;
         // $new_ead_doc -> load("application/ceads/2.1.1.xml");
         $xmlparser = xml_parser_create();
 // open a file and read data
-        $fp = fopen("application/solr_xmls/2.1.1.xml", 'r');
+        $fp = fopen("application/solr_xmls(old)/2.1.1.xml", 'r');
         $xmldata = fread($fp, 500000);
         xml_parse_into_struct($xmlparser,$xmldata,$values);
         xml_parser_free($xmlparser);

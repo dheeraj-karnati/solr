@@ -37,7 +37,7 @@ class Solr_url
 	*/
 	public function get_base_url($config)
 	{
-		$this->base = "http://".$config['host'].":".$config['port']."/solr/exploro/"."/select/";
+		$this->base = "http://".$config['host'].":".$config['port']."/solr/exploro-dashboard/"."/select/";
 	}
 
 	/*

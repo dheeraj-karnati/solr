@@ -1,0 +1,17 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.2.1.1.xml, line: 3413 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.2.1.1.xml, line: 3414 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.2.1.1.xml, line: 3415 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.2.1.1.xml, line: 3416 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.xml, line: 2577 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.xml, line: 2578 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.xml, line: 2579 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.xml, line: 2580 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/2.1.1.xml, line: 2581 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/new_ead.xml, line: 203 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/new_ead.xml, line: 204 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/new_ead.xml, line: 205 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 19:48:28 --> Severity: Warning  --> DOMDocument::load(): expected '&gt;' in /Applications/MAMP/htdocs/exploro/application/ceads/new_ead.xml, line: 206 /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 29
+ERROR - 2017-04-20 21:17:27 --> Severity: Warning  --> DOMXPath::query(): Invalid expression /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 59
+ERROR - 2017-04-20 21:17:27 --> Severity: Warning  --> DOMXPath::query(): Invalid expression /Applications/MAMP/htdocs/exploro/application/controllers/explr.php 59
