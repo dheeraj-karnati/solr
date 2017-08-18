@@ -12,7 +12,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Honor's Thesis Repository</title>
+    <title>EXPLORO DASHBOARD</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="http://library.marist.edu/css/bootstrap.css" rel="stylesheet">
@@ -141,7 +141,12 @@
 
 </div>
 <div class="container">
+    <div align="right">
+        <button id="logout" name="logout" class="btn btn-primary" type="button" onclick=""
+                style="background:#333;">logout
+        </button>
 
+    </div>
     <div class="col-md-12">
         <h2 style="text-align: center; margin: 30px; font-size: 40px;">EXPLORO - DASHBOARD</h2>
         <div id="requestStatus"
